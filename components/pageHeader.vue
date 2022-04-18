@@ -21,13 +21,13 @@
         <!-- 左側メニュー：トップページの各コンテンツへのリンク -->
         <ul class="navbar-nav me-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/about">Profile<span class="visually-hidden">(current)</span></a>
+            <a class="nav-link" href="/profilePage">Profile<span class="visually-hidden">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/skill">Skill</a>
+            <a class="nav-link" href="/skillPage">Skill</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/work">Work</a>
+            <a class="nav-link" href="/workPage">Work</a>
           </li>
         </ul>
         <!-- 右側メニュー：お問い合わせページへのリンク -->

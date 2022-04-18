@@ -70,7 +70,7 @@
             <div class="row">
               <div class="col-md-4">
                 <div class="card mb-3">
-                  <a href="/about">
+                  <a href="/ProfilePage">
                     <img src="~assets/profile_top.png" alt="Profile" class="img-fluid">
                   </a>
                   <div class="card-body d-flex justify-content-between">
@@ -82,7 +82,7 @@
               </div>
               <div class="col-md-4">
                 <div class="card mb-3">
-                  <a href="/skill">
+                  <a href="/skillPage">
                     <img src="../assets/skill_top.png" alt="Skill" class="img-fluid">
                     <div class="card-body d-flex justify-content-between">
                       <h4 class="card-title">
@@ -94,7 +94,7 @@
               </div>
               <div class="col-md-4">
                 <div class="card mb-3">
-                  <a href="/work">
+                  <a href="/workPage">
                     <img src="~assets/work_top.png" alt="Work" class="img-fluid">
                   </a>
                   <div class="card-body d-flex justify-content-between">
@@ -115,8 +115,8 @@
 </template>
 
 <script>
-import Header from '@/components/page_header.vue' // headerをインポート
-import Footer from '@/components/page_footer.vue' // footerをインポート
+import Header from '@/components/pageHeader.vue' // headerをインポート
+import Footer from '@/components/pageFooter.vue' // footerをインポート
 
 export default {
   name: 'IndexPage',
